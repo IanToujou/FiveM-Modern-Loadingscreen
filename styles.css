@@ -1,0 +1,10 @@
+body {
+	
+	background-image: url('assets/img/background.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+	overflow: hidden;
+	
+}

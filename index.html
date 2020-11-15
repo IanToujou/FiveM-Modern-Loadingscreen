@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html style="margin: 1px;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Server Loading</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: rgb(13,14,24);">
+    <div class="features-clean" style="background-color: rgba(255,255,255,0);">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center" style="color: rgb(255,255,255);font-size: 50px;">ServerName</h2>
+                <p class="text-center" style="color: rgb(255,255,255);font-size: 21px;">Lorem ipsum <br>DarkIce - Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="row features">
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-map-marker icon"></i>
+                    <h3 class="name" style="color: rgb(255,255,255);">Lorem ipsum</h3>
+                    <p class="description" style="color: rgb(255,255,255);">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-clock-o icon"></i>
+                    <h3 class="name" style="color: rgb(255,255,255);">Lorem ipsum</h3>
+                    <p class="description" style="color: rgb(255,255,255);">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-list-alt icon"></i>
+                    <h3 class="name" style="color: rgb(255,255,255);">Lorem ipsum</h3>
+                    <p class="description" style="color: rgb(255,255,255);">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-leaf icon"></i>
+                    <h3 class="name" style="color: rgb(255,255,255);">Lorem ipsum</h3>
+                    <p class="description" style="color: rgb(255,255,255);">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-plane icon"></i>
+                    <h3 class="name" style="color: rgb(255,255,255);">Lorem ipsum</h3>
+                    <p class="description" style="color: rgb(255,255,255);">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-phone icon"></i>
+                    <h3 class="name" style="color: rgb(255,255,255);">Lorem ipsum</h3>
+                    <p class="description" style="color: rgb(255,255,255);">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </div>
+            </div>
+        </div>
+        <div class="intro">
+                <p class="text-center" style="color: rgb(255,255,255);font-size: 21px;">Loading...</p>
+        </div>
+    </div><iframe id="music-video" allowfullscreen="" frameborder="0" width="0" height="0" src="https://www.youtube.com/embed/KVh183DK1-4?autoplay=1&enablejsapi=1"></iframe>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script>
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('music-video', {
+          height: '0',
+          width: '0',
+          videoId: 'KVh183DK1-4',
+          events: {
+            'onReady': function (event) {
+				event.target.setVolume(5);
+				event.target.playVideo();
+			}
+          }
+        });
+      }
+    </script>
+</body>
+
+</html>
