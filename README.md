@@ -1,5 +1,6 @@
 # FiveM-Modern-Loadingscreen
 ![License](https://img.shields.io/github/license/IanToujou/FiveM-Modern-Loadingscreen?label=License)
+![Downloads](https://img.shields.io/github/downloads/IanToujou/FiveM-Modern-Loadingscreen/total?color=valid&label=Downloads)
 ## Features
 
 ![LoadingScreen](https://user-images.githubusercontent.com/44029196/99193119-2e852000-2777-11eb-8e10-f519f34e5742.gif)
