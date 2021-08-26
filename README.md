@@ -1,5 +1,5 @@
 # FiveM-Modern-Loadingscreen 
-<a href="https://img.shields.io/github/license/IanToujou/FiveM-Modern-Loadingscreen?label=License"><img src="https://img.shields.io/discord/803708765265985587?color=5865F2&label=Discord&logo=discord&logoColor=white" alt="Discord Server"></a>
+<a href="https://discord.com/invite/eVCWjm38cG"><img src="https://img.shields.io/discord/803708765265985587?color=5865F2&label=Discord&logo=discord&logoColor=white" alt="Discord Server"></a>
 <a href="https://github.com/IanToujou/FiveM-Modern-Loadingscreen/releases/tag/v1.0.0"><img src="https://img.shields.io/github/license/IanToujou/FiveM-Modern-Loadingscreen?label=License"></a>
 <a href="https://github.com/IanToujou/FiveM-Modern-Loadingscreen/releases/tag/v1.0.0"><img src="https://img.shields.io/github/downloads/IanToujou/FiveM-Modern-Loadingscreen/total?color=valid&label=Downloads"></a>
 <a href="https://github.com/IanToujou/FiveM-Modern-Loadingscreen/releases/tag/v1.0.0"><img src="https://img.shields.io/github/v/release/IanToujou/FiveM-Modern-Loadingscreen?label=Release"></a>
