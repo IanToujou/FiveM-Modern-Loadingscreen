@@ -22,10 +22,10 @@
 
 ### Change music
 
-1. Copy the video id on youtube of your song. *(https://www.youtube.com/watch?v=VIDEO_ID)*
+1. Copy the video id on youtube of your song. *(https://www.youtube.com/watch?v=VIDEO_ID)* Copy the *VIDEO_ID* part.
 2. Open the `index.html` file.
-3. Go to **line 52** and replace the video id *(https://www.youtube.com/embed/VIDEO_ID?autoplay=1&enablejsapi=1)*
-4. Go to **line 67** and change the video id too.
+3. Go to **line 73** and replace the video id *(https://www.youtube.com/embed/VIDEO_ID?autoplay=1&enablejsapi=1)*
+4. Go to **line 89** and change the video id too.
 5. Restart the resource.
 
 ### Change background
