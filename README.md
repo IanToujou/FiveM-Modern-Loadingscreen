@@ -33,3 +33,7 @@
 1. Open the `/assets/img` folder.
 2. Replace the `background.gif` with another gif of your choice.
 3. Restart the resource.
+
+## Support
+
+If you have any questions or problems regarding this project, you can reach me via any linked social media account on my profile *(https://github.com/IanToujou)*.
