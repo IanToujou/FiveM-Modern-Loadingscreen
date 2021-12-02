@@ -1,3 +1,17 @@
+<!--
+
+    Copyright (c) 2021 Toujou Studios
+    Made by IanToujou using Bootstrap
+
+    If you encounter any issues or have any questions,
+    take a look at this project's Github page:
+    https://github.com/IanToujou/FiveM-Modern-Loadingscreen
+
+    You are free to use this asset under the GPL 3.0 License.
+    https://github.com/IanToujou/FiveM-Modern-Loadingscreen/blob/master/LICENSE
+
+-->
+
 <!DOCTYPE html>
 <html style="margin: 1px;">
 
@@ -17,7 +31,7 @@
         <div class="container">
             <div class="intro">
                 <h2 class="text-center" style="color: rgb(255,255,255);font-size: 50px;">ServerName</h2>
-                <p class="text-center" style="color: rgb(255,255,255);font-size: 21px;">Lorem ipsum <br>DarkIce - Lorem ipsum dolor sit amet</p>
+                <p class="text-center" style="color: rgb(255,255,255);font-size: 21px;">Lorem ipsum <br>ServerName - Lorem ipsum dolor sit amet</p>
             </div>
             <div class="row features">
                 <div class="col-sm-6 col-lg-4 item"><i class="fa fa-map-marker icon"></i>
@@ -49,10 +63,18 @@
         <div class="intro">
                 <p class="text-center" style="color: rgb(255,255,255);font-size: 21px;">Loading...</p>
         </div>
-    </div><iframe id="music-video" allowfullscreen="" frameborder="0" width="0" height="0" src="https://www.youtube.com/embed/KVh183DK1-4?autoplay=1&enablejsapi=1"></iframe>
+
+    </div>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Change the video ID below -->
+    <iframe id="music-video" allowfullscreen="" frameborder="0" width="0" height="0" src="https://www.youtube.com/embed/KVh183DK1-4?autoplay=1&enablejsapi=1"></iframe>
+
+    <!-- Change the video ID below -->
 	<script>
+
       var tag = document.createElement('script');
 
       tag.src = "https://www.youtube.com/iframe_api";
@@ -73,7 +95,9 @@
           }
         });
       }
+
     </script>
+
 </body>
 
 </html>
