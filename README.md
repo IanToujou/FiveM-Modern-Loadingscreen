@@ -1,39 +1,49 @@
-# FiveM-Modern-Loadingscreen 
-<a href="https://discord.com/invite/eVCWjm38cG"><img src="https://img.shields.io/discord/803708765265985587?color=5865F2&label=Discord&logo=discord&logoColor=white" alt="Discord Server"></a>
-<a href="https://github.com/IanToujou/FiveM-Modern-Loadingscreen/releases/tag/v1.0.1"><img src="https://img.shields.io/github/license/IanToujou/FiveM-Modern-Loadingscreen?label=License"></a>
-<a href="https://github.com/IanToujou/FiveM-Modern-Loadingscreen/releases/tag/v1.0.1"><img src="https://img.shields.io/github/downloads/IanToujou/FiveM-Modern-Loadingscreen/total?color=valid&label=Downloads"></a>
-<a href="https://github.com/IanToujou/FiveM-Modern-Loadingscreen/releases/tag/v1.0.1"><img src="https://img.shields.io/github/v/release/IanToujou/FiveM-Modern-Loadingscreen?label=Release"></a>
+# ✨ FIVEM MODERN LOADINGSCREEN
 
-## Features
+[![Status](https://img.shields.io/badge/-Active-valid?style=for-the-badge&label=Status)](https://github.com/IanToujou/FiveM-Modern-Loadingscreen/releases)
+[![Supports](https://img.shields.io/badge/-FiveM-ff005d?style=for-the-badge&label=Supports)](https://github.com/IanToujou/FiveM-Modern-Loadingscreen/releases)
+[![Version](https://img.shields.io/github/v/release/IanToujou/FiveM-Modern-Loadingscreen?style=for-the-badge&label=Version)](https://github.com/IanToujou/FiveM-Modern-Loadingscreen/releases)
+[![Downloads](https://img.shields.io/github/downloads/IanToujou/FiveM-Modern-Loadingscreen/total?color=valid&label=Downloads&style=for-the-badge)](https://github.com/IanToujou/FiveM-Modern-Loadingscreen/releases)
+[![License](https://img.shields.io/github/license/IanToujou/FiveM-Modern-Loadingscreen?label=License&style=for-the-badge)](https://github.com/IanToujou/FiveM-Modern-Loadingscreen/releases)
 
 ![LoadingScreen](https://user-images.githubusercontent.com/44029196/99193119-2e852000-2777-11eb-8e10-f519f34e5742.gif)
 
+## **📝 DESCRIPTION**
+
+A simple and easy-to-configure modern and nice looking loading screen for your FiveM server.
+
+## **🔥 FEATURES**
+
 * Modern and nice design
-* Animated background
+* Animated and customizable background
 * Customizable music
 * Customizable texts
 
-## Guides
-### Install
+## **📕 GUIDES**
 
-1. Download this resource and drag it into your FiveM resources folder.
-2. Start this resource via the config file.
-3. Start/Restart your server, and you're done!
+### **📲 INSTALLATION**
 
-### Change music
+- Download the latest version in the `Releases` tab.
+- Drag the script into your resource folder.
+- Start the script in your `server.cfg` or custom configuration.
+- Restart the server.
 
-1. Copy the video id on youtube of your song. *(https://www.youtube.com/watch?v=VIDEO_ID)* Copy the `VIDEO_ID` part.
-2. Open the `index.html` file.
-3. Go to **line 73** and replace the video id *(https://www.youtube.com/embed/VIDEO_ID?autoplay=1&enablejsapi=1)*
-4. Go to **line 89** and change the video id too.
-5. Restart the resource.
+### **🎵 CHANGE MUSIC**
 
-### Change background
+- Copy the video id on youtube of your song. The YouTube URL looks like this: `https://www.youtube.com/watch?v=VIDEO_ID`.
+- Open the `index.html` file.
+- Go to **line 73** and replace the video id in the URL: `https://www.youtube.com/embed/VIDEO_ID?autoplay=1&enablejsapi=1`
+- Go to **line 89** and change the video id too.
+- Restart the resource.
 
-1. Open the `/assets/img` folder.
-2. Replace the `background.gif` with another gif of your choice.
-3. Restart the resource.
+### **🖼️ CHANGE BACKGROUND**
 
-## Support
+- Open the `/assets/img` folder.
+- Replace the `background.gif` with another gif of your choice.
+- Restart the resource.
 
-If you have any questions or problems regarding this project, you can reach me via any linked social media account on my profile *(https://github.com/IanToujou)*.
+## **🛠️ SUPPORT**
+
+If you have any questions or problems regarding this project, you can reach me via any linked social media account on my profile. Just click the button below!
+
+[![Support](https://img.shields.io/badge/-Support-teal?style=for-the-badge&logo=github)](https://github.com/IanToujou)
