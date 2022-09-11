@@ -6,9 +6,11 @@
 [![Downloads](https://img.shields.io/github/downloads/IanToujou/FiveM-Modern-Loadingscreen/total?color=valid&label=Downloads&style=for-the-badge)](https://github.com/IanToujou/FiveM-Modern-Loadingscreen/releases)
 [![License](https://img.shields.io/github/license/IanToujou/FiveM-Modern-Loadingscreen?label=License&style=for-the-badge)](https://github.com/IanToujou/FiveM-Modern-Loadingscreen/releases)
 
-![LoadingScreen](https://user-images.githubusercontent.com/44029196/99193119-2e852000-2777-11eb-8e10-f519f34e5742.gif)
+![Fivem-Modern-Loadingscreen](https://user-images.githubusercontent.com/44029196/189531557-272b6593-e6bc-4e6b-a671-7bbbe906ddbf.jpg)
 
 ## **📝 DESCRIPTION**
+
+![LoadingScreen](https://user-images.githubusercontent.com/44029196/99193119-2e852000-2777-11eb-8e10-f519f34e5742.gif)
 
 A simple and easy-to-configure modern and nice looking loading screen for your FiveM server.
 
